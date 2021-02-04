@@ -1,3 +1,26 @@
 @import 'tailwindcss/dist/base.css';
 @import 'tailwindcss/dist/components.css';
 @import 'tailwindcss/dist/utilities.css';
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+.search-input {
+  box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.4);
+}
+.search-button {
+  border-radius: 4px;
+}
+.weather-card {
+  display: flex;
+  justify-content: center;
+}
+.card-container {
+  color: white;
+  background-color: rgb(40, 40, 68);
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 30px;
+  width: 300px;
+}
